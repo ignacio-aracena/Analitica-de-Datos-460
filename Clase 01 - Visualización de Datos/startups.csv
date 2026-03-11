@@ -1,151 +1,117 @@
-#,startup,sector_principal,sector_secundario,modelo_negocio,pais,anio_fundacion,edad_empresa,etapa,empleados,clientes_activos,arr_millones,churn_mensual_pct,nps_score,fondeo_usd_mm,runway_meses,unicornio
-1,Mercadowave,SaaS,,B2B,Brasil,2021,4,Seed,16,208,1.4,14.1,60.0,0.84,8.0,False
-2,Paylink,AI/ML,SaaS,B2B,Peru,2020,5,Seed,18,174,2.35,9.9,30.0,,15.0,False
-3,Cloudster,E-commerce,,B2B,Brasil,2019,6,Seed,16,246,1.18,10.4,,1.27,11.0,False
-4,Datafy,Healthtech,,B2B,Argentina,2022,3,Seed,10,180,0.86,,34.0,,12.0,False
-5,Nexloop,Fintech,,B2C,Argentina,2020,5,Seed,18,21,1.19,,27.0,,14.0,False
-6,Fintrack,Fintech,,B2C,Chile,2018,7,Serie A,52,9200,4.19,38.5,-42.0,5.06,24.0,False
-7,Growhub,Fintech,,B2B,Colombia,2021,4,Seed,8,197,1.25,,35.0,,,False
-8,Stackly,Cybersecurity,AI/ML,B2B,Argentina,2020,5,Seed,15,168,1.74,,,0.75,18.0,False
-9,Venturai,Healthtech,SaaS,B2B2C,Argentina,2018,7,Serie A,39,837,4.38,3.7,55.0,3.84,24.0,False
-10,Logiqo,E-commerce,Fintech,B2B,Colombia,2020,5,Seed,16,189,1.15,6.2,38.0,0.98,20.0,False
-11,Spendix,Fintech,Cybersecurity,B2B,Argentina,2019,6,Seed,27,58,1.97,10.6,25.0,1.1,23.0,False
-12,Trendora,AI/ML,Fintech,B2B,Uruguay,2020,5,Serie A,27,502,5.88,7.0,28.0,,18.0,False
-13,Novapay,Cybersecurity,Healthtech,B2B2C,Colombia,2019,6,Serie A,47,763,7.5,3.0,92.0,4.99,24.0,False
-14,Buildex,SaaS,E-commerce,B2B,Argentina,2022,3,Pre-seed,6,14,0.28,14.9,38.0,0.11,8.0,False
-15,Codeflow,SaaS,,B2C,Argentina,2021,4,Seed,18,195,1.56,12.1,22.0,0.76,,False
-16,Marketix,SaaS,,B2C,USA,2021,4,Pre-seed,5,21,0.27,,12.0,0.13,,False
-17,Salesync,SaaS,E-commerce,B2B,Brasil,2021,4,Pre-seed,4,22,0.3,17.5,9.0,,14.0,False
-18,Trackify,Healthtech,Cybersecurity,B2C,Brasil,2019,6,Seed,8,185,1.98,,33.0,0.82,13.0,False
-19,Fintopia,Edtech,,B2B,Chile,2020,5,Seed,12,252,0.97,11.3,,,18.0,False
-20,Launchpad,SaaS,,B2C,USA,2022,3,Seed,19,250,1.38,8.8,6.0,0.73,16.0,False
-21,Scalero,Healthtech,,B2C,USA,2017,8,Serie A,26,226,5.19,3.5,25.0,5.36,14.0,False
-22,Pipelio,Fintech,E-commerce,B2C,Chile,2017,8,Serie B,89,2565,10.02,2.7,60.0,,35.0,False
-23,Taskova,SaaS,Cybersecurity,B2B,Brasil,2022,3,Seed,68,125,0.4,7.0,,0.79,,False
-24,Revvup,SaaS,,B2B2C,Argentina,2019,6,Seed,16,172,0.72,13.5,,,14.0,False
-25,Clientix,Edtech,,B2B,Chile,2019,6,Serie A,66,836,2.07,,39.0,7.56,24.0,False
-26,Metriqa,E-commerce,,B2B,Mexico,2022,3,Pre-seed,5,69,0.45,15.0,11.0,0.05,10.0,False
-27,Dashbolt,SaaS,,B2B,Brasil,2019,6,Seed,19,112,1.69,6.0,20.0,0.68,21.0,False
-28,Funnelz,Healthtech,Cybersecurity,B2C,Peru,2022,3,Pre-seed,4,51,0.42,12.0,9.0,0.11,5.0,False
-29,Leadify,Healthtech,,B2C,Argentina,2021,4,Pre-seed,7,26,0.0,12.0,16.0,0.19,3.0,False
-30,Growthly,Fintech,Logistics,B2B,Mexico,2016,9,Serie B,145,2750,12.21,6.6,50.0,,28.0,False
-31,Invoicex,Healthtech,SaaS,B2C,Argentina,2017,8,Serie A,4,546,7.49,5.5,44.0,,27.0,False
-32,Chatpilot,Fintech,E-commerce,B2B,Mexico,2020,5,Serie A,28,217,5.21,4.3,32.0,,15.0,False
-33,Autobase,Fintech,,B2C,Argentina,2022,3,Seed,14,233,0.88,5.4,37.0,,11.0,False
-34,Sendloop,AI/ML,,B2B,Argentina,2022,3,Seed,1,136,1.46,10.0,,0.85,13.0,False
-35,Brandify,AI/ML,Edtech,B2C,Argentina,2021,4,Seed,7,193,1.79,9.1,23.0,0.99,,False
-36,Zerofriction,E-commerce,Healthtech,B2B,Colombia,2021,4,Serie A,19,36,18.5,12.1,39.0,0.16,15.0,False
-37,Retainly,SaaS,,B2B2C,Chile,2021,4,Seed,19,110,2.21,,20.0,,11.0,False
-38,Pricehub,Fintech,,B2B,Mexico,2020,5,Serie A,30,791,2.52,7.4,53.0,5.7,28.0,False
-39,Insightful,Logistics,,B2B,USA,2019,6,Seed,12,73,1.02,,50.0,0.49,18.0,False
-40,Clarix,Edtech,,B2B,Brasil,2022,3,Pre-seed,8,30,0.18,18.3,19.0,,10.0,False
-41,Predictly,Fintech,Healthtech,B2B2C,Brasil,2015,10,Serie B,211,1699,16.13,,27.0,13.21,27.0,True
-42,Segmentio,Edtech,Cybersecurity,B2B2C,Uruguay,2018,7,Serie A,72,743,5.15,4.2,25.0,5.83,32.0,False
-43,Formflow,Fintech,,B2B,Argentina,2018,7,Serie A,36,742,2.84,4.8,48.0,,17.0,False
-44,Notifyapp,AI/ML,,B2C,USA,2017,8,Serie A,25,605,3.05,,22.0,3.08,,False
-45,Checkoutly,SaaS,,B2B2C,Argentina,2022,3,Seed,15,194,0.64,13.4,31.0,0.96,15.0,False
-46,Auditbase,Logistics,SaaS,B2C,USA,2022,3,Pre-seed,8,7,0.24,16.0,,,,False
-47,Convertica,SaaS,,B2C,Argentina,2021,4,Seed,16,196,1.45,8.4,19.0,0.59,8.0,False
-48,Reachout,Healthtech,,B2B,Peru,2017,8,Serie A,69,285,3.48,,52.0,6.46,25.0,False
-49,Campaignr,Healthtech,,B2B,Mexico,2023,2,Pre-seed,6,40,0.48,17.5,16.0,,1.0,False
-50,Engagex,SaaS,,B2B2C,USA,2021,4,Pre-seed,7,29,0.33,16.3,18.0,0.18,5.0,False
-51,Referrly,AI/ML,Edtech,B2B2C,Argentina,2020,5,Seed,15,171,0.59,,29.0,0.41,,False
-52,Onboardix,E-commerce,SaaS,B2C,Mexico,2023,2,Pre-seed,3,30,0.46,,24.0,0.18,10.0,False
-53,Subscriply,AI/ML,,B2B,USA,2016,9,Serie B,207,2563,14.75,3.8,,15.72,46.0,True
-54,Billingops,Cybersecurity,Logistics,B2B,Mexico,2018,7,Serie A,60,808,6.35,3.5,49.0,,18.0,False
-55,Churnzero,Healthtech,,B2C,Colombia,2020,5,Seed,1,188,2.25,9.2,,0.85,15.0,False
-56,Upsello,AI/ML,,B2B2C,Colombia,2021,4,Seed,14,128,2.5,8.5,27.0,1.08,25.0,False
-57,Renewix,Fintech,SaaS,B2B2C,Mexico,2022,3,Seed,11,149,0.68,8.4,12.0,1.15,16.0,False
-58,Expansio,SaaS,Fintech,B2C,Colombia,2022,3,Seed,14,190,1.07,8.0,5.0,,11.0,False
-59,Offerbolt,Fintech,,B2C,Mexico,2020,5,Seed,11,144,1.68,,47.0,0.85,19.0,False
-60,Quotely,SaaS,Edtech,B2B,Peru,2022,3,Seed,15,118,2.39,11.5,39.0,,13.0,False
-61,Contractly,SaaS,,B2B,Argentina,2020,5,Seed,17,2,0.0,,42.0,22.0,17.0,False
-62,Approvalx,SaaS,,B2B2C,Brasil,2021,4,Seed,15,107,2.02,12.0,40.0,,13.0,False
-63,Workflowz,Cybersecurity,Fintech,B2C,USA,2019,6,Serie A,43,701,4.35,4.9,58.0,4.09,21.0,False
-64,Rulebase,SaaS,,B2B,Peru,2023,2,Pre-seed,4,56,0.04,12.9,,0.11,9.0,False
-65,Triggerio,SaaS,Healthtech,B2B,Mexico,2020,5,Seed,19,159,1.64,,35.0,1.02,16.0,False
-66,Eventify,Healthtech,,B2C,Colombia,2022,3,Seed,23,201,1.82,13.5,41.0,,18.0,False
-67,Webinario,Fintech,,B2B,Brasil,2018,7,Serie A,49,491,3.14,,37.0,4.94,24.0,False
-68,Contentix,E-commerce,,B2B,Argentina,2019,6,Serie A,54,609,2.96,8.7,45.0,6.92,22.0,False
-69,Mediaflow,Fintech,,B2C,Mexico,2017,8,Serie A,40,590,2.05,,34.0,4.41,18.0,False
-70,Publishr,AI/ML,Cybersecurity,B2C,Brasil,2020,5,Seed,13,125,1.18,,37.0,,15.0,False
-71,Schedulix,E-commerce,Healthtech,B2C,Mexico,2021,4,Pre-seed,6,4,0.24,8.7,,0.25,7.0,False
-72,Posterly,SaaS,,B2B,Argentina,2019,6,Seed,21,262,0.54,8.2,58.0,0.79,13.0,False
-73,Socialpulse,Fintech,Edtech,B2C,USA,2020,5,Seed,18,200,0.7,13.5,34.0,1.06,,False
-74,Hashtagly,E-commerce,Logistics,B2B,USA,2021,4,Seed,12,187,1.86,11.5,,,15.0,False
-75,Mentionr,E-commerce,AI/ML,B2B,Colombia,2017,8,Serie B,46,2822,9.81,,49.0,,33.0,False
-76,Listenly,E-commerce,Cybersecurity,B2C,Mexico,2020,5,Seed,18,176,2.23,,,0.89,18.0,False
-77,Reputrack,E-commerce,Healthtech,B2C,Brasil,2022,3,Seed,17,171,2.44,6.9,31.0,1.13,22.0,False
-78,Reviewly,Fintech,,B2B2C,Chile,2020,5,Serie A,21,799,4.95,3.4,25.0,5.85,,False
-79,Ratinghub,SaaS,AI/ML,B2C,Colombia,2019,6,Seed,14,206,1.86,9.0,17.0,1.04,18.0,False
-80,Feedbackr,Fintech,,B2C,Argentina,2017,8,Serie A,57,775,3.45,9.9,44.0,,29.0,False
-81,Surveyor,Cybersecurity,,B2B,Peru,2016,9,Serie B,122,3005,18.24,2.4,47.0,17.64,36.0,False
-82,Pollify,Logistics,,B2B,Uruguay,2021,4,Seed,10,171,0.9,6.7,39.0,0.64,23.0,False
-83,Votrix,SaaS,Edtech,B2B,USA,2016,9,Serie B,170,3581,14.18,4.4,,23.26,41.0,False
-84,Quizio,Fintech,,B2B,Chile,2017,8,Serie B,138,3360,5.61,2.8,71.0,17.7,,False
-85,Testify,SaaS,,B2B2C,Colombia,2021,4,Pre-seed,4,29,0.49,12.0,31.0,0.18,8.0,False
-86,Experimentr,SaaS,,B2B,Brasil,2022,3,Pre-seed,9,29,0.01,15.8,32.0,,7.0,False
-87,ABtracker,E-commerce,,B2B2C,USA,2023,2,Pre-seed,3,43,0.02,11.1,28.0,0.2,9.0,False
-88,Heatmaply,Logistics,,B2C,Uruguay,2021,4,Pre-seed,6,23,0.17,12.5,28.0,0.2,15.0,False
-89,Clickpath,Cybersecurity,Healthtech,B2C,Argentina,2022,3,Seed,22,224,2.09,11.6,,0.54,,False
-90,Scrollix,Edtech,AI/ML,B2C,Argentina,2019,6,Seed,14,146,0.76,12.2,,0.74,9.0,False
-91,Sessionly,Fintech,Cybersecurity,B2C,Brasil,2022,3,Seed,23,97,1.66,11.6,10.0,0.85,13.0,False
-92,Recordio,E-commerce,,B2B,Chile,2021,4,Seed,6,178,1.81,8.3,27.0,0.87,15.0,False
-93,Replaybase,E-commerce,,B2B,USA,2019,6,Serie A,42,1037,3.99,6.1,,3.67,24.0,False
-94,Funnelview,Healthtech,,B2C,Argentina,2021,4,Pre-seed,2,1,0.13,12.3,46.0,0.07,11.0,False
-95,Converto,E-commerce,Healthtech,B2B,Mexico,2017,8,Serie A,50,585,5.51,9.1,50.0,4.61,21.0,False
-96,Landix,Edtech,,B2B,Brasil,2023,2,Pre-seed,4,16,0.12,8.6,6.0,,,False
-97,Pagebuildr,Healthtech,Logistics,B2C,USA,2022,3,Pre-seed,4,1,0.34,8.2,-11.0,0.07,11.0,False
-98,Formix,Edtech,Fintech,B2B,Uruguay,2020,5,Seed,16,86,0.78,5.3,,0.59,18.0,False
-99,Popupify,Fintech,Edtech,B2B2C,Uruguay,2018,7,Serie A,53,733,2.94,4.6,35.0,4.85,21.0,False
-100,Leadmagnet,Fintech,SaaS,B2B2C,Mexico,2015,10,Serie B,99,1585,5.46,6.7,66.0,25.94,33.0,False
-101,Exitintent,Fintech,,B2B2C,Brasil,2017,8,Serie A,57,533,4.09,4.1,,2.58,,False
-102,Couponio,Logistics,,B2B,Brasil,2019,6,Serie A,48,713,6.43,9.1,,,27.0,False
-103,Dealify,SaaS,,B2B,Argentina,2022,3,Pre-seed,4,46,0.43,,36.0,0.2,5.0,False
-104,Promohub,Healthtech,,B2B2C,Uruguay,2022,3,Pre-seed,2,10,0.2,16.3,10.0,,8.0,False
-105,Loyaltix,AI/ML,,B2B,Chile,2020,5,Serie A,45,724,3.01,7.5,42.0,,,False
-106,Rewardly,SaaS,Logistics,B2B2C,USA,2018,7,Serie A,45,235,4.88,3.2,31.0,,29.0,False
-107,Pointsbase,Edtech,,B2B2C,USA,2018,7,Serie B,23,2283,13.24,,49.0,20.9,40.0,False
-108,Giftcardly,E-commerce,AI/ML,B2B2C,Mexico,2022,3,Seed,21,133,1.79,14.0,36.0,0.79,12.0,False
-109,Voucherix,SaaS,Cybersecurity,B2B,Chile,2019,6,Seed,17,165,1.84,14.3,70.0,,19.0,False
-110,Referralx,Fintech,,B2B,USA,2018,7,Serie A,37,710,3.64,5.9,43.0,4.76,17.0,False
-111,Affiliatly,SaaS,,B2B2C,Uruguay,2019,6,Seed,12,178,2.09,,21.0,0.77,19.0,False
-112,Partnerops,Fintech,,B2B,Argentina,2017,8,Serie B,28,3428,5.04,5.2,80.0,,,True
-113,Resellify,AI/ML,Healthtech,B2B,Mexico,2016,9,Serie B,149,3054,16.55,4.8,52.0,15.71,23.0,False
-114,Whitelabelx,E-commerce,SaaS,B2C,Argentina,2021,4,Seed,17,168,1.84,6.0,22.0,1.23,,False
-115,Agencyhub,Logistics,Edtech,B2B2C,USA,2019,6,Serie A,43,711,5.21,4.2,58.0,3.4,18.0,False
-116,Clientbase,Cybersecurity,E-commerce,B2C,Colombia,2017,8,Serie A,27,445,4.35,7.2,48.0,5.0,24.0,False
-117,Proposify,E-commerce,,B2C,Argentina,2023,2,Pre-seed,1,5,0.36,8.2,-4.0,0.2,,False
-118,Contractix,SaaS,,B2B,Colombia,2019,6,Serie B,161,2341,6.19,2.4,43.0,16.44,26.0,False
-119,Signaturefly,Cybersecurity,,B2C,Colombia,2017,8,Serie A,52,380,2.42,7.5,56.0,5.95,,False
-120,Esignly,Healthtech,,B2B2C,Brasil,2018,7,Serie A,55,588,4.0,7.7,65.0,5.63,18.0,False
-121,Documentix,E-commerce,Edtech,B2B,Argentina,2022,3,Seed,21,148,0.84,,45.0,,14.0,False
-122,Storageops,Cybersecurity,Edtech,B2C,Colombia,2019,6,Serie B,135,2718,6.8,6.9,,23.95,,False
-123,Backupify,SaaS,E-commerce,B2B2C,Mexico,2020,5,Seed,15,102,0.76,,30.0,0.94,19.0,False
-124,Archivix,Fintech,,B2C,Chile,2019,6,Seed,8,144,1.19,7.4,54.0,,16.0,False
-125,Compliancely,SaaS,E-commerce,B2C,Mexico,2016,9,Serie B,153,2149,12.45,7.0,55.0,,32.0,False
-126,Audittrail,Edtech,,B2C,Uruguay,2022,3,Pre-seed,7,18,0.43,17.7,14.0,0.2,,False
-127,Policyhub,E-commerce,,B2B,Mexico,2020,5,Seed,12,31,2.41,,26.0,0.82,18.0,False
-128,Riskbase,Cybersecurity,AI/ML,B2B,Mexico,2015,10,Serie B,111,2255,14.09,,55.0,13.44,23.0,True
-129,Fraudly,Fintech,,B2B2C,Peru,2019,6,Serie B,117,3080,12.59,3.2,44.0,21.21,24.0,False
-130,Identix,Healthtech,Fintech,B2B2C,Brasil,2022,3,Seed,12,146,0.93,11.2,20.0,,,False
-131,Verifyops,Edtech,Fintech,B2B2C,Argentina,2021,4,Seed,18,182,1.09,,,0.66,,False
-132,KYCflow,SaaS,Logistics,B2B2C,Argentina,2019,6,Seed,10,60,1.52,15.0,41.0,,19.0,False
-133,AMLtracker,Fintech,SaaS,B2C,Chile,2022,3,Seed,17,33,2.08,9.0,45.0,0.55,21.0,False
-134,Sanctionix,SaaS,,B2C,Colombia,2021,4,Seed,28,149,1.97,12.7,34.0,0.77,14.0,False
-135,Screeningly,AI/ML,,B2C,Colombia,2019,6,Serie A,71,361,3.14,7.3,,6.4,19.0,False
-136,Duediligencr,SaaS,,B2C,Argentina,2017,8,Serie A,52,568,7.76,,,3.54,27.0,False
-137,Onboardops,Healthtech,Logistics,B2C,Argentina,2019,6,Serie A,39,698,5.91,8.7,51.0,6.52,23.0,False
-138,Accessly,E-commerce,Cybersecurity,B2C,Argentina,2017,8,Serie A,43,518,7.73,8.5,58.0,3.32,14.0,False
-139,Permissionx,SaaS,Healthtech,B2B2C,Brasil,2022,3,Pre-seed,4,7,0.39,17.9,27.0,0.05,9.0,False
-140,Rolehub,AI/ML,E-commerce,B2B,Mexico,2019,6,Seed,13,158,0.63,10.2,41.0,0.66,24.0,False
-141,SSOflow,AI/ML,E-commerce,B2B,Brasil,2019,6,Seed,20,164,0.71,5.4,,0.31,16.0,False
-142,Authbase,SaaS,Fintech,B2B,Brasil,2022,3,Seed,14,107,2.05,11.6,28.0,0.71,17.0,False
-143,Spendix,Fintech,Cybersecurity,B2B,Argentina,2019,6,Seed,27,58,1.97,10.6,25.0,1.1,23.0,False
-144,Metriqa,E-commerce,,B2B,Mexico,2022,3,Pre-seed,5,69,0.45,15.0,11.0,0.05,10.0,False
-145,Predictly,Fintech,Healthtech,B2B2C,Brasil,2015,10,Serie B,211,1699,16.13,,27.0,13.21,27.0,True
-146,Upsello,AI/ML,,B2B2C,Colombia,2021,4,Seed,14,128,2.5,8.5,27.0,1.08,25.0,False
-147,Schedulix,E-commerce,Healthtech,B2C,Mexico,2021,4,Pre-seed,6,4,0.24,8.7,,0.25,7.0,False
-148,Marketix,SaaS,,B2C,USA,2021,4,Pre-seed,6,21,0.27,,12.0,0.13,,False
-149,Invoicex,Healthtech,SaaS,B2C,Argentina,2017,8,Serie A,3,546,7.49,5.5,44.0,,27.0,False
-150,Auditbase,Logistics,SaaS,B2C,USA,2022,3,Pre-seed,10,7,0.24,16.0,,,,False
+,startup,pais,anio_fundacion,sector,ultima_ronda,monto_ronda_usd_mm,valuacion_usd_mm,empleados,inversores_clave
+0,Weights AI,USA,2023,Plataforma ML,Seed,25.0,,30,Sequoia Scout
+1,Replit,USA,2016,Coding AI,Serie B,97.0,1160.0,200,"Andreessen Horowitz, Sequoia, Google"
+2,Etched,USA,2022,AI Hardware / Chips,Seed,120.0,,50,"Primary Venture, Y Combinator"
+3,Magic AI,USA,2023,Coding AI,Serie C,320.0,,100,"CapitalG, Sequoia, Jane Street"
+4,Wiz,Israel,2020,Cybersecurity AI,Serie E,1000.0,12000.0,1800,"Sequoia, Andreessen Horowitz, Index Ventures"
+5,Qdrant,Alemania,2021,Plataforma ML,Serie B,28.0,,80,"Spark Capital, 468 Capital"
+6,Perplexity AI,USA,2022,Busqueda / Agentes,Serie D,500.0,9000.0,1600,"Jeff Bezos, IVP, NEA"
+7,Tabnine,Israel,2018,Coding AI,Serie C,25.0,,200,"Atlassian Ventures, Qualcomm Ventures"
+8,Apptronik,USA,2016,Robotica,Serie A,350.0,,250,"Google, Capital Factory"
+9,Darktrace,UK,2013,Cybersecurity AI,Publica,,2500.0,2400,Publica (DARK.L)
+10,DeepSeek,China,2023,LLM / Foundation Models,Seed,700.0,,200,High-Flyer Quant (autofinanciada)
+11,Spring Health,USA,2016,Healthtech AI,Serie E,100.0,7500.0,800,"General Catalyst, Tiger Global"
+12,Stability AI,UK,2019,Imagen / Generativa,Serie A,101.0,1000.0,200,"Lightspeed, Coatue"
+13,Hebbia,USA,2020,Enterprise Search,Serie B,130.0,700.0,150,"Andreessen Horowitz, Peter Thiel, Google"
+14,Modal,USA,2021,Infraestructura Cloud,Serie B,67.0,,100,"Redpoint, Unusual Ventures"
+15,World Labs,USA,2024,LLM / Foundation Models,Seed,100.0,1000.0,30,"Andreessen Horowitz, NEA, Radical Ventures"
+16,Physical Intelligence,USA,2023,Robotica,Serie A,400.0,2000.0,200,"Bezos Expeditions, Khosla Ventures"
+17,D-ID,Israel,2017,Imagen / Generativa,Serie B,25.0,,100,"Fidelity, DCM Ventures"
+18,Writer,USA,2020,Enterprise AI,Serie C,200.0,1900.0,300,"Salesforce Ventures, ICONIQ Growth"
+19,Nuro,USA,2016,Vehiculos Autonomos,Serie D,600.0,8600.0,500,"SoftBank, Tiger Global, Greylock"
+20,Cognition AI,USA,2023,Coding AI,Serie C,900.0,10200.0,200,"Peter Thiel, Founders Fund, General Catalyst"
+21,Groq,USA,2016,AI Hardware / Chips,Serie D,640.0,2800.0,400,"BlackRock, Tiger Global"
+22,Synthesia,UK,2017,Imagen / Generativa,Serie C,90.0,1000.0,300,"Kleiner Perkins, Nvidia, WPP"
+23,Khanmigo / Khan Academy,USA,2008,Edtech AI,Sin ronda,,,1500,"Bill Gates, Google (non-profit)"
+24,Sierra AI,USA,2023,Agentes AI,Serie B,175.0,4500.0,150,"Sequoia, Andreessen Horowitz"
+25,Reka AI,USA,2023,LLM / Foundation Models,Serie A,58.0,,80,"DST Global, Radical Ventures"
+26,Legalzoom AI,USA,2020,Legal AI,Serie B,40.0,,80,"Bond Capital, NFX"
+27,Liquid AI,USA,2023,LLM / Foundation Models,Serie A,250.0,2350.0,100,"AMD Ventures, OSS Capital"
+28,01.AI,China,2023,LLM / Foundation Models,Serie A,200.0,1000.0,200,Sinovation Ventures
+29,Pinecone,USA,2019,Plataforma ML,Serie C,100.0,750.0,200,"Andreessen Horowitz, ICONIQ Growth"
+30,Midjourney,USA,2021,Imagen / Generativa,Seed,,,40,Autofinanciada
+31,Hugging Face,USA,2016,Plataforma ML,Serie D,235.0,4500.0,300,"Google, Amazon, Nvidia, Salesforce"
+32,Moonshot AI,China,2023,LLM / Foundation Models,Serie C,1000.0,,500,"Alibaba, Hongshan, Meituan"
+33,Hippocratic AI,USA,2023,Healthtech AI,Serie B,141.0,1640.0,150,"Andreessen Horowitz, General Catalyst, Nvidia"
+34,Groq,USA,2016,AI Hardware / Chips,Serie D,640.0,2800.0,400,"BlackRock, Tiger Global"
+35,Glean,USA,2019,Enterprise Search,Serie E,260.0,4500.0,700,"Sequoia, Lightspeed, General Catalyst"
+36,1X Technologies,Noruega,2014,Robotica,Serie B,100.0,,200,"OpenAI, EQT Ventures"
+37,xAI,USA,2023,LLM / Foundation Models,Serie C,6000.0,50000.0,900,"Andreessen Horowitz, Sequoia, Nvidia"
+38,World Labs,USA,2024,LLM / Foundation Models,Seed,100.0,1000.0,30,"Andreessen Horowitz, NEA, Radical Ventures"
+39,Harvey,USA,2022,Legal AI,Serie D,300.0,5000.0,400,"OpenAI, Sequoia, Kleiner Perkins"
+40,Weaviate,Paises Bajos,2019,Plataforma ML,Serie B,50.0,500.0,200,"Salesforce Ventures, Databricks Ventures"
+41,Baichuan AI,China,2023,LLM / Foundation Models,Serie A,300.0,1000.0,300,"Alibaba, Tencent, Xiaomi"
+42,Suno AI,USA,2022,Audio / Voz,Serie B,125.0,500.0,50,"Lightspeed, Matrix Partners"
+43,Safe Superintelligence,USA,2024,LLM / Foundation Models,Serie A,1000.0,5000.0,50,"Andreessen Horowitz, Sequoia, DST Global"
+44,Insilico Medicine,Hong Kong,2014,Biotech AI,Serie D,100.0,,400,"Bold Capital, Warburg Pincus"
+45,Lambda Labs,USA,2012,Infraestructura Cloud,Serie C,320.0,1500.0,300,"NVIDIA, SGW Invest, 1517 Fund"
+46,Xaira Therapeutics,USA,2024,Biotech AI,Serie A,1000.0,2000.0,150,"ARCH Venture, Foresite Capital, Andreessen Horowitz"
+47,Abridge,USA,2018,Healthtech AI,Serie C,150.0,850.0,200,"Bessemer, Spark Capital"
+48,Apptronik,USA,2016,Robotica,Serie A,350.0,,250,"Google, Capital Factory"
+49,Aidoc,Israel,2016,Healthtech AI,Serie D,110.0,,300,"General Catalyst, TLV Partners"
+50,Weights & Biases,USA,2017,Plataforma ML,Serie C,200.0,1250.0,450,"Felicis, Coatue, Insight Partners"
+51,Mistral AI,Francia,2023,LLM / Foundation Models,Serie C,1000.0,14000.0,500,"Andreessen Horowitz, Lightspeed, ASML"
+52,Inflection AI,USA,2022,LLM / Foundation Models,Serie B,1300.0,4000.0,200,"Reid Hoffman, Bill Gates, Microsoft"
+53,Canva,Australia,2012,Diseño / Productividad,Serie D,200.0,42000.0,4500,"Blackbird Ventures, Sequoia, T. Rowe Price"
+54,Pika Labs,USA,2023,Imagen / Generativa,Serie A,80.0,500.0,80,"Lightspeed, Andreessen Horowitz"
+55,Codeium,USA,2021,Coding AI,Serie C,150.0,1250.0,300,"General Catalyst, Kleiner Perkins"
+56,Thinking Machines,USA,2024,LLM / Foundation Models,Seed,2000.0,12000.0,100,"Nvidia, Andreessen Horowitz"
+57,Glean,USA,2019,Enterprise Search,Serie E,260.0,4500.0,700,"Sequoia, Lightspeed, General Catalyst"
+58,LangChain,USA,2022,Plataforma ML,Serie A,25.0,200.0,100,"Sequoia, Benchmark"
+59,Speak,USA,2016,Edtech AI,Serie C,120.0,1000.0,253,"Andreessen Horowitz, OpenAI"
+60,Samsara,USA,2015,Data & Analytics,Publica,,20000.0,3200,Publica (NYSE: IOT)
+61,Orca Security,Israel,2019,Cybersecurity AI,Serie C,550.0,1800.0,600,"Temasek, ICONIQ Growth, GV"
+62,Character AI,USA,2021,Agentes AI,Serie B,150.0,1000.0,200,"Andreessen Horowitz, Google"
+63,Wayve,UK,2017,Vehiculos Autonomos,Serie C,1050.0,5000.0,800,"Nvidia, Microsoft, SoftBank"
+64,DeepSeek,China,2023,LLM / Foundation Models,Seed,700.0,,200,High-Flyer Quant (autofinanciada)
+65,1X Technologies,Noruega,2014,Robotica,Serie B,100.0,,200,"OpenAI, EQT Ventures"
+66,Leya,Suecia,2022,Legal AI,Serie A,14.0,,60,"Benchmark, Innovationsverket"
+67,Reflection AI,USA,2024,LLM / Foundation Models,Serie A,2000.0,8000.0,150,"Nvidia, Sequoia, DST Global"
+68,ElevenLabs,USA,2022,Audio / Voz,Serie C,180.0,3300.0,250,"Andreessen Horowitz, Sequoia, Salesforce"
+69,Augment Code,USA,2022,Coding AI,Serie B,227.0,977.0,150,"Index Ventures, Lightspeed"
+70,Anthropic,USA,2021,LLM / Foundation Models,Serie E,4000.0,60000.0,1300,"Amazon, Google, Spark Capital"
+71,Weights AI,USA,2023,Plataforma ML,Seed,25.0,,30,Sequoia Scout
+72,Duolingo,USA,2011,Edtech AI,Publica,,12000.0,1000,Publica (NASDAQ: DUOL)
+73,Safe Superintelligence,USA,2024,LLM / Foundation Models,Serie A,1000.0,5000.0,50,"Andreessen Horowitz, Sequoia, DST Global"
+74,Figure AI,USA,2022,Robotica,Serie B,675.0,2600.0,300,"Microsoft, Nvidia, OpenAI, Amazon"
+75,Cohere,Canada,2019,LLM / Foundation Models,Serie D,270.0,5500.0,450,"Nvidia, Oracle, Salesforce Ventures"
+76,Udio,USA,2023,Audio / Voz,Serie A,10.0,,30,"a16z, will.i.am"
+77,Sakana AI,Japon,2023,LLM / Foundation Models,Seed,30.0,,100,"Nvidia, David Ha"
+78,Agility Robotics,USA,2015,Robotica,Serie B,150.0,,300,"DCVC, Playground Global, Sony"
+79,Adept AI,USA,2022,Agentes AI,Serie B,350.0,1000.0,100,"General Catalyst, Nvidia, Spark Capital"
+80,Figma,USA,2012,Diseño / Productividad,Publica,,16000.0,1200,Publica (NYSE: FIG)
+81,Tome,USA,2020,Enterprise AI,Serie B,43.0,,100,"Lightspeed, Coatue"
+82,Abnormal Security,USA,2018,Cybersecurity AI,Serie D,250.0,5100.0,700,"Wellington Management, Greylock, Insight"
+83,Covariant,USA,2017,Robotica,Serie C,222.0,2000.0,200,"Index Ventures, Tiger Global"
+84,CoreWeave,USA,2017,Infraestructura Cloud,Serie C,1100.0,19000.0,1600,"Nvidia, Magnetar Capital"
+85,Tempus AI,USA,2015,Healthtech AI,Publica,,16000.0,2400,Publica (NASDAQ: TEM)
+86,Tenstorrent,Canada,2016,AI Hardware / Chips,Serie D,693.0,2700.0,600,"Samsung, AFW Partners, Hyundai"
+87,Notion,USA,2013,Diseño / Productividad,Serie C,275.0,10000.0,1000,"Sequoia, Coatue, Index Ventures"
+88,SentinelOne,Israel,2013,Cybersecurity AI,Publica,,10000.0,2800,Publica (NYSE: S)
+89,Jasper AI,USA,2021,Enterprise AI,Serie A,125.0,1500.0,500,"Insight Partners, Coatue"
+90,Cursor / Anysphere,USA,2022,Coding AI,Serie D,2300.0,29300.0,500,"Accel, Thrive Capital, Andreessen Horowitz"
+91,Databricks,USA,2013,Data & Analytics,Serie J,10000.0,62000.0,6000,"Thrive Capital, Andreessen Horowitz, DST Global"
+92,Darktrace,UK,2013,Cybersecurity AI,Publica,,2500.0,2400,Publica (DARK.L)
+93,Zhipu AI,China,2019,LLM / Foundation Models,Serie D,400.0,3000.0,600,"Alibaba, Tencent, Meituan"
+94,OpenAI,USA,2015,LLM / Foundation Models,Serie E,6600.0,300000.0,3000,"Microsoft, Thrive Capital, SoftBank"
+95,Covariant,USA,2017,Robotica,Serie C,222.0,2000.0,200,"Index Ventures, Tiger Global"
+96,Scale AI,USA,2016,Data & Analytics,Serie F,1000.0,14000.0,1200,"Accel, Tiger Global, Founders Fund"
+97,Recursion,USA,2013,Biotech AI,Publica,,1000.0,1000,"Nvidia, SoftBank (NASDAQ: RXRX)"
+98,Inflection AI,USA,2022,LLM / Foundation Models,Serie B,1300.0,4000.0,200,"Reid Hoffman, Bill Gates, Microsoft"
+99,Synthesia,UK,2017,Imagen / Generativa,Serie C,90.0,1000.0,300,"Kleiner Perkins, Nvidia, WPP"
+100,Anduril,USA,2017,Defensa / Robotica,Serie F,1500.0,14000.0,3000,"Founders Fund, Paladin Capital, Andreessen Horowitz"
+101,Nabla,Francia,2018,Healthtech AI,Serie C,26.0,200.0,150,"Cathay Innovation, Bpifrance"
+102,Waymo,USA,2016,Vehiculos Autonomos,Serie B,5600.0,45000.0,4000,"Alphabet, Silver Lake, Andreessen Horowitz"
+103,Alifyz,Canada,2023,Legal AI,Seed,3.0,,15,Y Combinator
+104,Vast AI,Australia,2016,Infraestructura Cloud,Serie B,100.0,,150,Boab AI
+105,OpenAI,USA,2015,LLM / Foundation Models,Serie E,6600.0,300000.0,3000,"Microsoft, Thrive Capital, SoftBank"
+106,Runway ML,USA,2018,Imagen / Generativa,Serie C,141.0,1500.0,200,"Google, Salesforce, Nvidia"
+107,Mercor,USA,2022,Agentes AI,Serie C,350.0,10000.0,100,"General Catalyst, Peter Thiel"
+108,PathAI,USA,2016,Biotech AI,Serie D,165.0,,300,"General Atlantic, Bristol-Myers Squibb"
+109,Khanmigo / Khan Academy,USA,2008,Edtech AI,Sin ronda,,,1500,"Bill Gates, Google (non-profit)"
+110,Cerebras,USA,2016,AI Hardware / Chips,Serie F,250.0,4000.0,500,"Benchmark, Eclipse Ventures, Altimeter"
+111,Skild AI,USA,2023,Robotica,Serie A,300.0,1500.0,80,"Lightspeed, Coatue, Bezos Expeditions"
+112,Duolingo,USA,2011,Edtech AI,Publica,,12000.0,1000,Publica (NASDAQ: DUOL)
+113,Together AI,USA,2022,Infraestructura Cloud,Serie B,305.0,3300.0,200,"Salesforce Ventures, Kleiner Perkins"
+114,Synthell,USA,2022,Edtech AI,Seed,5.0,,20,Y Combinator
+115,Isomorphic Labs,UK,2021,Biotech AI,Serie A,600.0,3000.0,200,"Alphabet, Foresite Capital"

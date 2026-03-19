@@ -8,8 +8,8 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
 
 | Clase    | Tema                            | Dataset        | Herramientas                        |
 | -------- | ------------------------------- | -------------- | ----------------------------------- |
-| Clase 01 | Visualización de Datos          | startups.csv   | `pandas` · `seaborn` · `matplotlib` |
-| Clase 02 | Data Profiling & Visualización  | Superstore.csv | `pandas` · `seaborn` · `matplotlib` |
+| Clase 01 | Data Visualization         | startups.csv   | `pandas` · `seaborn` · `matplotlib` |
+| Clase 02 | Data Profiling & Visualization    | superstore.csv | `pandas` · `seaborn` · `matplotlib` |
 
 ---
 

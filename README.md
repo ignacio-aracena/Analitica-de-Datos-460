@@ -6,11 +6,10 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
 
 ## Contenido
 
-
-| Clase    | Tema                   | Herramientas                        |
-| -------- | ---------------------- | ----------------------------------- |
-| Clase 01 | Visualización de Datos | `pandas` · `seaborn` · `matplotlib` |
-
+| Clase    | Tema                            | Dataset        | Herramientas                        |
+| -------- | ------------------------------- | -------------- | ----------------------------------- |
+| Clase 01 | Data Visualization         | startups.csv   | `pandas` · `seaborn` · `matplotlib` |
+| Clase 02 | Data Profiling & Visualization    | superstore.csv | `pandas` · `seaborn` · `matplotlib` |
 
 ---
 
@@ -18,13 +17,21 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
 
 ```
 📦 Analitica-de-Datos-460
- ┣ 📂 Clase 01 - Visualización de Datos
+ ┣ 📂 Clase 01 - Data Visualization
  ┃ ┣ 📄 1.1 - Repaso de Python.pdf
  ┃ ┣ 📄 1.2 - Pandas.pdf
  ┃ ┣ 📄 1.3 - Visualización Matplotlib y Seaborn.pdf
  ┃ ┣ 📄 Clase 1 - Visualización de Datos.pdf
- ┃ ┣ 📓 startups_practica.ipynb
- ┃ ┗ 📄 startups.csv
+ ┃ ┣ 📓 practica01.ipynb
+ ┃ ┣ 📄 startups.csv
+ ┃ ┣ 📄 documentacion_tecnica.md
+ ┃ ┗ 📄 hallazgos.md
+ ┣ 📂 Clase 02 - Data Profiling & Visualization
+ ┃ ┣ 📄 Clase 2 - Data Profiling (1).pdf
+ ┃ ┣ 📓 practica02.ipynb
+ ┃ ┣ 📄 Superstore.csv
+ ┃ ┣ 📄 documentacion_tecnica.md
+ ┃ ┗ 📄 hallazgos.md
  ┗ 📄 README.md
 ```
 
@@ -46,14 +53,13 @@ pip install pandas matplotlib seaborn
 git clone https://github.com/ignacio-aracena/Analitica-de-Datos-460.git
 ```
 
-1. Abrir el notebook en Jupyter o Google Colab
-2. Ejecutar las celdas en orden
+2. Abrir el notebook en Jupyter o Google Colab
+3. Ejecutar las celdas en orden
 
 ---
 
 ## Materia
 
-**Analítica de Datos** · Negocios Digitales · Otoño 2026  
-Ignacio Aracena · Juan Costa                                                                  
-Universidad de San Andrés  
-  
+**Analítica de Datos** · Negocios Digitales · Otoño 2026
+Ignacio Aracena · Juan Costa
+Universidad de San Andrés

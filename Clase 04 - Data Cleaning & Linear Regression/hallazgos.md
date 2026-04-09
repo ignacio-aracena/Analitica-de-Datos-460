@@ -179,6 +179,36 @@ Algunas cosas que **este modelo NO puede responder**:
 
 ---
 
+## 7. Conclusión — volviendo a la pregunta de negocio
+
+Empezamos preguntándonos dos cosas. Después del flujo completo (limpieza → EDA → modelo → evaluación), las podemos contestar de frente:
+
+**1. ¿Cuántos USD de venta generamos, en promedio, por cada USD invertido en marketing digital?**
+
+→ Aproximadamente **$3.10 por cada USD invertido**. Es el coeficiente `m` de la recta y representa el **ROI marginal estimado**. Es el número que se le lleva al equipo de marketing para justificar el presupuesto.
+
+**2. ¿Podemos predecir las ventas a partir de la inversión?**
+
+→ **Sí, con razonable confianza para una primera estimación.** El modelo:
+- Explica el **95% de la variabilidad** de las ventas (R² = 0.95).
+- Cuando se equivoca, lo hace por **±$356** en promedio (RMSE), que es ~**7%** de las ventas medianas del dataset.
+
+Eso es suficiente para **estimar el retorno esperado antes de gastar** — exactamente lo que el equipo de marketing pidió. Marketing pasa de "tirar plata y rezar" a tener una expectativa cuantificada del retorno.
+
+### Tres asteriscos antes de usar el modelo para cerrar el presupuesto del trimestre
+
+1. **El ROI de $3.10 es un promedio lineal.** La regresión asume que cada dólar adicional rinde lo mismo, hasta el infinito. En la realidad hay un punto de saturación donde invertir más deja de dar retorno proporcional, y este modelo no lo detecta. Conclusión práctica: **el modelo es confiable dentro del rango de inversión observado en el dataset; extrapolar muy por encima es riesgoso.**
+
+2. **El modelo no diferencia por canal ni por región.** Para responder "¿en qué canal conviene invertir el próximo dólar?" hace falta una regresión múltiple con `canal` y `region` como variables (one-hot encoding). Es el siguiente paso natural y queda como mejora pendiente (ver §5).
+
+3. **El R² = 0.95 es excepcionalmente alto** porque el dataset está armado para enseñar el flujo limpio. En proyectos reales, esperar valores entre 0.6 y 0.8 es realista. **No usar este R² como vara de comparación para futuros modelos.**
+
+### Recomendación al equipo de marketing
+
+Usar el modelo como **guía direccional** (cuánto rinde aproximadamente cada peso invertido) y como **input para construir escenarios de presupuesto**, pero acompañarlo de un margen de seguridad (≥7%) y revalidarlo cada trimestre con datos nuevos. **No tratarlo como una bola de cristal** — es una primera respuesta cuantitativa, no la palabra final.
+
+---
+
 ## Recursos relacionados
 
 - **`Lineal_Simple_Regression.ipynb`** (en esta misma carpeta) — notebook de ejemplo con el mismo flujo de regresión lineal aplicado a otro dataset (salarios vs años de experiencia, autoría G. Vinueza). Incluye un paso adicional con `statsmodels` para extraer **p-values** y **F-statistic**, que sirven para validar si los coeficientes son estadísticamente significativos. Recomendado si querés ver cómo se profundiza en la validación estadística del modelo.

@@ -6,10 +6,14 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
 
 ## Contenido
 
-| Clase    | Tema                            | Dataset        | Herramientas                        |
-| -------- | ------------------------------- | -------------- | ----------------------------------- |
-| Clase 01 | Data Visualization         | startups.csv   | `pandas` · `seaborn` · `matplotlib` |
-| Clase 02 | Data Profiling & Visualization    | superstore.csv | `pandas` · `seaborn` · `matplotlib` |
+| Clase    | Tema                                  | Dataset                    | Herramientas                                       | Material complementario                          |
+| -------- | ------------------------------------- | -------------------------- | -------------------------------------------------- | ------------------------------------------------ |
+| Clase 01 | Data Visualization                    | `startups.csv`             | `pandas` · `seaborn` · `matplotlib`                | `documentacion_tecnica.md` · `hallazgos.md`      |
+| Clase 02 | Data Profiling & Visualization        | `Superstore.csv`           | `pandas` · `seaborn` · `matplotlib`                | `documentacion_tecnica.md` · `hallazgos.md`      |
+| Clase 03 | Tableau                               | `Superstore.csv`           | Tableau                                            | —                                                |
+| Clase 04 | Data Cleaning + Regresión Lineal      | `campañas_marketing.csv`   | `pandas` · `seaborn` · `matplotlib` · `scikit-learn` | `documentacion_tecnica.md` · `hallazgos.md`      |
+
+> **Patrón estándar de cada Clase con notebook:** los notebooks son intencionalmente minimales (solo código y observaciones cortas). La explicación detallada de cada celda vive en `documentacion_tecnica.md`. El análisis de los hallazgos en clave de negocio vive en `hallazgos.md`.
 
 ---
 
@@ -27,9 +31,18 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
  ┃ ┣ 📄 documentacion_tecnica.md
  ┃ ┗ 📄 hallazgos.md
  ┣ 📂 Clase 02 - Data Profiling & Visualization
- ┃ ┣ 📄 Clase 2 - Data Profiling (1).pdf
+ ┃ ┣ 📄 Clase 2 - Data Profiling.pdf
  ┃ ┣ 📓 practica02.ipynb
  ┃ ┣ 📄 Superstore.csv
+ ┃ ┣ 📄 documentacion_tecnica.md
+ ┃ ┗ 📄 hallazgos.md
+ ┣ 📂 Clase 03 - Tableau
+ ┃ ┗ 📄 Superstore.csv
+ ┣ 📂 Clase 04 - Data Cleaning & Linear Regression
+ ┃ ┣ 📄 Clase 4 - Data Cleaning & Linear Regression.pdf
+ ┃ ┣ 📓 Clase04_DataCleaning_RegresionLineal.ipynb
+ ┃ ┣ 📓 Lineal_Simple_Regression.ipynb
+ ┃ ┣ 📄 campañas_marketing.csv
  ┃ ┣ 📄 documentacion_tecnica.md
  ┃ ┗ 📄 hallazgos.md
  ┗ 📄 README.md
@@ -40,7 +53,7 @@ Materiales, notebooks y recursos de las clases tutoriales de **Analítica de Dat
 ## Requisitos
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ---

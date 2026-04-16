@@ -12,7 +12,8 @@
       "Bash(/opt/anaconda3/bin/jupyter nbconvert:*)",
       "Bash(/opt/anaconda3/bin/python -c \"import pandas as pd; df=pd.read_csv\\('campañas_marketing_limpio.csv'\\); print\\('shape:', df.shape\\); print\\('nulos:', df.isnull\\(\\).sum\\(\\).sum\\(\\)\\); print\\('dtypes:'\\); print\\(df.dtypes\\); print\\('canales:', df.canal.unique\\(\\)\\); print\\('regions:', df.region.unique\\(\\)\\); print\\('ventas range:', df.ventas_usd.min\\(\\), df.ventas_usd.max\\(\\)\\)\")",
       "Bash(/opt/anaconda3/bin/python -c ':*)",
-      "Bash(/opt/anaconda3/bin/python)"
+      "Bash(/opt/anaconda3/bin/python)",
+      "Bash(/opt/anaconda3/bin/python -c ' *)"
     ]
   }
 }
